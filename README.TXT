@@ -1,27 +1,23 @@
-Project: zuul-better
-Authors: Michael Kolling and David J. Barnes
+Room Exploration - Inventory & Teleportation Game Odyssey
 
-This project is part of the material for the book
+Project Overview:
+This Java-based project is an adventure game where players explore various rooms, interact with objects, and teleport across locations. The game structure builds on object-oriented principles and expands on the classic adventure game framework.
 
-   Objects First with Java - A Practical Introduction using BlueJ
-   Third edition
-   David J. Barnes and Michael Kolling
-   Pearson Education, 2006
-   
-This project is a simple framework for an adventure game. In this version,
-it has a few rooms and the ability for a player to walk between these rooms.
-That's all.
+Features:
+   Explore multiple rooms with unique teleportation mechanics.
+   Players can collect, examine, and drop items within rooms.
+   Simple text-based commands for interaction.
+Installation & Usage
+   git clone https://github.com/ahmedsayidrashid/Room-exploration.git
+   Compile and run the game by creating an instance of the Game class and calling the play() method.
+Key Files:
+   Game.java: Main class to start the game.
+   Item.java: Handles item-related functionality.
+   TransporterRoom.java: Implements teleportation between rooms.
+UML Diagram:
+   A visual representation of the game’s architecture is included in the repository (UML Diagram A02.png).
 
-To start this application, create an instance of class "Game" and call its
-"play" method.
-
-This project was written as the starting point of a small Java project.
-
-The goal is to extend the game:
-
-  - add items to rooms (items may have weight)
-  - add multiple players
-  - add commands (pick, drop, examine, read, ...)
-  - (anything you can think of, really...)
-
-Read chapter 7 of the book to get a detailed description of the project.
+Future Enhancements:
+   Multiplayer support
+Contact:
+Created by Ahmed Sayid Rashid. For inquiries, reach out via GitHub or email.
